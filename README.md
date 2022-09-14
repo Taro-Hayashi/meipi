@@ -77,6 +77,10 @@
 |C15,16|27p|
 
 
+### ファームウェア
+https://github.com/Taro-Hayashi/qmk_firmware/tree/tarohayashi/keyboards/tarohayashi/meipi_promicro
+
+### そのほか
 
 atushi Morimoto様のフットプリントを改変、流用させていただきました。  
 https://github.com/74th/rp2040-dev-board
