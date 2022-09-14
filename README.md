@@ -77,8 +77,13 @@
 |C15,16|27p|
 
 
-### ファームウェア
+## ファームウェア
+### QMK ファームウェア
 https://github.com/Taro-Hayashi/qmk_firmware/tree/tarohayashi/keyboards/tarohayashi/meipi_promicro
+
+
+### PRK ファームウェア
+
 
 ### そのほか
 
