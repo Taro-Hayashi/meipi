@@ -19,7 +19,7 @@
 ||EC11, EC12|
 ||ノブ|
 
-### LED（RaspberryPi Picoでの利用に合わせて3Vで接続しています）
+### LED
 |Ref|部品名|
 |-|-|
 |U1|NCP1117, ADP3338|
