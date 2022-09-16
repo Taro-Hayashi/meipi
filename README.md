@@ -1,4 +1,5 @@
 # meipi
+![](img/meipi.jpeg)
 
 ## パーツリスト
 
