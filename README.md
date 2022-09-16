@@ -1,53 +1,92 @@
 # meipi
+![](img/meipi.jpeg)
 
 ## パーツリスト
 
 ### 共通パーツ
-Cherry MX ソケット
-キースイッチ
-キーキャップ
-1N4148W
-TRRSジャック 2
-タクタイルスイッチ 2
-Pro Micro
-
+|Ref|部品名|
+|-|-|
+||キースイッチ|
+||キーキャップ|
+||CherryMXホットスワップソケット|
+||1N4148W|
+||MJ-4PP-9, PJ-320A|
+|BOOT, RUN|3x6x4.3タクタイルスイッチ|
+||Pro Micro|
 
 ### ロータリーエンコーダー
-ロータリーエンコーダー
-ノブ
+|Ref|部品名|
+|-|-|
+||EC11, EC12|
+||ノブ|
 
-### LED（RaspberryPi Picoでの利用に合わせて3Vで接続しています）
-NCP1117 or ADP3338 1
-SK6812MINI-E 13
+### LED
+|Ref|部品名|
+|-|-|
+|U1|NCP1117, ADP3338|
+|LED0-12|SK6812MINI-E|
 
 ### OLED
-OLEDモジュール 1~2
-ピンソケット 4ピン分  1~2
-ピンヘッダ 4ピン分 1~2
+|Ref|部品名|
+|-|-|
+||OLEDモジュール|
+||ピンソケット 4ピン分|
+||ピンヘッダ 4ピン分|
 
 ### トラックボール
-PIM447
-3.5mmピンソケット 5ピン分
-7mmスペーサー
-ネジ
+|Ref|部品名|
+|-|-|
+||PIM447|
+||3.5mmピンソケット 5ピン分|
+||7mmスペーサー|
+||ネジ|
 
 ### ジョイスティック
-RKJXV1224005 DIP化キット 1~2
-キャップ 1~2
-ピンソケット 6ピン分 ~1
-L型ピンソケット 1x6（6p） ~1
+|Ref|部品名|
+|-|-|
+||RKJXV1224005 DIP化キット|
+||キャップ|
+|JOYSTICK0|L型ピンソケット 1x6（6p)|
+|JOYSTICK1|ピンソケット 6ピン分|
 
-### RP2040
-RP2040 1
-NCP1117 or ADP3338 1
-W25Q（32MB〜）
-USB Type-Cコネクタ 基板用
-3225サイズ 12MHz 水晶振動子
-####1206サイズ
-C1
+### RP2040(最初にはんだ付けしてください。)
+#### 表面実装部品
+|Ref|部品名|
+|-|-|
+|RP2040|RP2040|
+|U1|NCP1117, ADP3338|
+|U2|W25Q（32MB〜）|
+|USB0|USB Type-Cコネクタ 基板用|
+
+#### 3225サイズ
+|Ref|部品名|
+|-|-|
+|Y1|12MHz 水晶振動子|
+
+#### 1206サイズ
+|Ref|部品名|
+|-|-|
+|R1,2|5.1k|
+|R3,4|27|
+|R5|10k|
+|R6-8|1k|
+|C1,2|10u|
+|C3|1u|
+|C4,5|0.1u|
+|C6|1u|
+|C7-14|0.1u|
+|C15,16|27p|
 
 
+## ファームウェア
+### QMK ファームウェア
+https://github.com/Taro-Hayashi/qmk_firmware/tree/tarohayashi/keyboards/tarohayashi/meipi_promicro
 
+
+### PRK ファームウェア
+
+
+### そのほか
 
 atushi Morimoto様のフットプリントを改変、流用させていただきました。  
 https://github.com/74th/rp2040-dev-board
@@ -55,5 +94,5 @@ https://github.com/74th/rp2040-dev-board
 takashicompany様のフットプリントを改変、流用させていただきました。  
 https://github.com/takashicompany/tkbd-lib  
   
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="クリエイティブ・コモンズ・ライセンス" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />この PCB は <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">クリエイティブ・コモンズ 表示 - 継承 4.0 国際 ライセンス</a>の下に提供されています。
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="クリエイティブ・コモンズ・ライセンス" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">クリエイティブ・コモンズ 表示 - 継承 4.0 国際 ライセンス</a>の下に提供されています。
   
