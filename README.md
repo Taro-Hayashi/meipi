@@ -82,12 +82,7 @@ RP2040の位置に穴が空いている場合手はんだ可能な基板です�
 
 
 ## ファームウェア
-### QMK ファームウェア
 https://github.com/Taro-Hayashi/qmk_firmware/tree/tarohayashi/keyboards/tarohayashi/meipi_promicro
-
-
-### PRK ファームウェア
-
 
 ### そのほか
 
