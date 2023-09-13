@@ -83,7 +83,7 @@ BOOTHで商品を購入すると付いてくることがあります。名刺代
 
 
 ## ファームウェア
-https://github.com/Taro-Hayashi/meipi/tree/main/qmk_firmware/keyboards/tarohayashi/meipi
+https://github.com/Taro-Hayashi/qmk_firmware/tree/tarohayashi/keyboards/tarohayashi/archive/meipi
 
 ### そのほか
 
